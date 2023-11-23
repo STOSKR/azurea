@@ -1,12 +1,8 @@
 import React from 'react';
 
 function App() {
-  return (
-    <div>
-      <h1>Title</h1>
-      <h1>Title</h1>
-    </div>
-  );
+  const value = 'World';
+  return <div>Hello {value}</div>;
 }
 
 export default App;
